@@ -354,7 +354,7 @@ hr {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
-    background: #fff url('../img/');
+    background: #fff url('../img/Iowa.png');
     background-size: cover;
     font-size: 45px; }
     @media screen and (max-width: 520px) {
