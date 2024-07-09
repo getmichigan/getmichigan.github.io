@@ -83,7 +83,7 @@ h1.title {
     color: #eee4da; }
   .score-container .score-addition, .best-container .score-addition {
     position: absolute;
-    right: 30px;
+    right: 110px;
     color: #01274C;
     font-size: 25px;
     line-height: 25px;
@@ -327,64 +327,115 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
-    background: #fff url('../img/Purdue.png');
+    background: #fff url('../img/MSU.jpg');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background: #fff url('../img/Indiana.png');
+    background: #fff url('../img/Rutgers.png');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
-    background: #fff url('../img/Northwestern.png');
+    background: #fff url('../img/Indiana.png');
     background-size: cover; }
   .tile.tile-16 .tile-inner {
-    background: #fff url('../img/Wisconsin.png');
+    background: #fff url('../img/Purdue.png');
     background-size: cover; }
   .tile.tile-32 .tile-inner {
-    background: #fff url('../img/UCLA.jpg');
+    background: #fff url('../img/Maryland.png');
     background-size: cover; }
   .tile.tile-64 .tile-inner {
-    background: #fff url('../img/USC.png');
+    background: #fff url('../img/Nebraska.png');
     background-size: cover; }
   .tile.tile-128 .tile-inner {
-    background: #fff url('../img/PennState.png');
+    background: #fff url('../img/Minnesota.png');
     background-size: cover;
-    box-shadow: 0 0 30px 10px rgba(243, 234, 114, 0.24), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
-    background: #fff url('../img/Oregon.png');
+    background: #fff url('../img/');
     background-size: cover;
-    box-shadow: 0 0 30px 10px rgba(243, 234, 114, 0.32), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
-    background: #fff url('../img/Washington.png');
+    background: #fff url('../img/Northwestern.png');
     background-size: cover;
-    box-shadow: 0 0 30px 10px rgba(243, 234, 114, 0.4), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
-    background: #fff url('../img/OSU.png');
+    background: #fff url('../img/Illinois.png');
     background-size: cover;
-    box-shadow: 0 0 30px 10px rgba(243, 234, 114, 0.48), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
+    background: #fff url('../img/Wisconsin.png');
+    background-size: cover;
+    font-size: 35px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-2048 .tile-inner {
+        font-size: 15px; } }
+  .tile.tile-4096 .tile-inner {
+    background: #fff url('../img/UCLA.jpg');
+    background-size: cover;
+    box-shadow: 0 0 30px 10px rgba(243, 234, 114, 0.08), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 35px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-4096 .tile-inner {
+        font-size: 15px; } }
+  .tile.tile-8192 .tile-inner {
+    background: #fff url('../img/USC.png');
+    background-size: cover;
+    box-shadow: 0 0 30px 10px rgba(243, 234, 114, 0.16), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 35px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-8192 .tile-inner {
+        font-size: 15px; } }
+  .tile.tile-16384 .tile-inner {
+    background: #fff url('../img/PennState.png');
+    background-size: cover;
+    box-shadow: 0 0 30px 10px rgba(243, 234, 114, 0.24), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 35px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-16384 .tile-inner {
+        font-size: 15px; } }
+  .tile.tile-32768 .tile-inner {
+    background: #fff url('../img/Oregon.png');
+    background-size: cover;
+    box-shadow: 0 0 30px 10px rgba(243, 234, 114, 0.32), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
+    font-size: 35px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-32768 .tile-inner {
+        font-size: 15px; } }
+  .tile.tile-65536 .tile-inner {
+    background: #fff url('../img/Washington.png');
+    background-size: cover;
+    box-shadow: 0 0 30px 10px rgba(243, 234, 114, 0.4), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
+    font-size: 35px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-65536 .tile-inner {
+        font-size: 15px; } }
+  .tile.tile-131072 .tile-inner {
+    background: #fff url('../img/OSU.png');
+    background-size: cover;
+    box-shadow: 0 0 30px 10px rgba(243, 234, 114, 0.48), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
+    font-size: 35px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-131072 .tile-inner {
+        font-size: 15px; } }
+  .tile.tile-262144 .tile-inner {
     background: #fff url('../img/Michigan.png');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 234, 114, 0.56), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
-      .tile.tile-2048 .tile-inner {
+      .tile.tile-262144 .tile-inner {
         font-size: 15px; } }
   .tile.tile-super .tile-inner {
     background: #fff url('../img/Big10.png');
